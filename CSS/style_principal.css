@@ -221,62 +221,62 @@ h1 span {
     flex-wrap: wrap;
     gap: 2rem;
   }
+}
 
-  @media screen and (min-width: 1024px) {
-    .hero_img_leonas img {
-      object-fit: cover;
-      object-position: center;
-      height: 40rem;
-    }
-
-    .main_contenedor {
-      width: 80vw;
-      margin: 0 10vw;
-    }
-
-    #nosotros p,
-    #productos_descripcion p {
-      font-size: 1.42rem;
-    }
+@media screen and (min-width: 1024px) {
+  .hero_img_leonas img {
+    object-fit: cover;
+    object-position: center;
+    height: 40rem;
   }
 
-  @media screen and (min-width: 1248px) {
-    h1 {
-      font-size: 4.3rem;
-    }
-    .logo img {
-      width: 7rem;
-      margin-top: 2.8rem;
-    }
-
-    .main_contenedor {
-      width: 70vw;
-      margin: 4rem 15vw;
-    }
-
-    #nosotros h2,
-    #productos_descripcion h2 {
-      font-size: 2.6rem;
-    }
-
-    #nosotros p,
-    #productos_descripcion p {
-      font-size: 1.5rem;
-    }
-
-    .lista_producto {
-      font-size: 1.65rem;
-    }
-
-    .lista_producto span {
-      font-size: 3.2rem;
-    }
+  .main_contenedor {
+    width: 80vw;
+    margin: 0 10vw;
   }
 
-  @media screen and (min-width: 1870px) {
-    .main_contenedor {
-      width: 60vw;
-      margin: 4rem 20vw;
-    }
+  #nosotros p,
+  #productos_descripcion p {
+    font-size: 1.42rem;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  h1 {
+    font-size: 3.8rem;
+  }
+  .logo img {
+    width: 5rem;
+    margin-top: 2.8rem;
+  }
+
+  .main_contenedor {
+    width: 70vw;
+    margin: 4rem 15vw;
+  }
+
+  #nosotros h2,
+  #productos_descripcion h2 {
+    font-size: 2.6rem;
+  }
+
+  #nosotros p,
+  #productos_descripcion p {
+    font-size: 1.5rem;
+  }
+
+  .lista_producto {
+    font-size: 1.65rem;
+  }
+
+  .lista_producto span {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (min-width: 1870px) {
+  .main_contenedor {
+    width: 60vw;
+    margin: 4rem 20vw;
   }
 }
