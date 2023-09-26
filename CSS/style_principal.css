@@ -1,0 +1,271 @@
+/*FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto+Condensed:ital@1&family=Roboto:ital,wght@0,100;0,400;1,100&family=Rubik&display=swap");
+/*ESTILOS MOBILE*/
+
+/*HEADER*/
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.contenedor_principal {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  border: solid 2.6px #463265;
+  margin: 3.8rem 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/*HERO ESTILOS */
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Roboto Condensed;
+  color: #002d62;
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+h1 span {
+  font-family: Roboto Condensed;
+  color: #f9430a;
+}
+
+.logo {
+  position: relative;
+  overflow: hidden;
+}
+
+.logo img {
+  margin-top: 1.9rem;
+  width: 5.1rem;
+}
+
+.hero_img_leonas {
+  position: relative;
+}
+
+.hero_img_leonas img {
+  margin-top: 1.8rem;
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 0;
+}
+
+.seleccion {
+  position: absolute;
+  top: 40%;
+  display: grid;
+  grid-template-columns: 3rem 1fr 3rem;
+  margin: 0 2%;
+  width: 96%;
+  transform: translateY(-40%);
+}
+
+.anterior,
+.siguiente {
+  display: inline;
+  color: #fff;
+  font-size: 4.5rem;
+  cursor: pointer;
+  &:hover {
+    color: #f9430a;
+    transition: 0.6s;
+  }
+}
+
+.anterior {
+  grid-column: 1/2;
+}
+
+.siguiente {
+  grid-column: 3/4;
+}
+
+/*MAIN*/
+.main_contenedor {
+  margin: 0 8vw;
+  width: 84vw;
+}
+
+/*DESCRIPCION DE TIENDA Y PRODUCTOS */
+
+#nosotros {
+  margin-top: 2rem;
+}
+
+#nosotros h2,
+#productos_descripcion h2 {
+  font-family: Rubik;
+  color: #f9430a;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+#nosotros p,
+#productos_descripcion p {
+  font-family: Rubik;
+  margin: 2rem 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #000;
+}
+
+/*PRODUCTOS*/
+
+.lista_producto {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-family: PT Serif;
+  width: 100%;
+  margin-top: 3rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.lista_producto span {
+  margin-right: 1rem;
+  font-size: 3.4rem;
+  cursor: pointer;
+  &:hover {
+    color: #f9430a;
+    transition: 0.3s;
+  }
+}
+
+.cards {
+  display: none;
+}
+
+.cards_contenedor {
+  display: grid;
+  margin-top: 1rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-rows: 24rem 2rem 2rem 2rem;
+  width: 22rem;
+  justify-items: center;
+  border: solid 0.6px rgb(224, 236, 236);
+  cursor: pointer;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+      rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+      rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+    transition: 0.22s;
+  }
+}
+
+.card img {
+  width: 18rem;
+  grid-row: 1/2;
+}
+
+.card h3 {
+  grid-row: 2/3;
+  font-size: 1.42rem;
+}
+
+.card p {
+  color: #a7a7a7;
+  grid-row: 3/4;
+  font-weight: 600;
+}
+
+.calzado_contenedor div > h3 {
+  font-size: 1rem;
+}
+
+.calzado_contenedor div > img {
+  width: 20rem;
+  margin-top: 4.2rem;
+}
+
+/*TABLET*/
+@media screen and (min-width: 720px) {
+  h1 {
+    font-size: 3.7rem;
+  }
+
+  .logo img {
+    margin-top: 2.2rem;
+    width: 5.6rem;
+  }
+
+  .cards_contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .hero_img_leonas img {
+      object-fit: cover;
+      object-position: center;
+      height: 40rem;
+    }
+
+    .main_contenedor {
+      width: 80vw;
+      margin: 0 10vw;
+    }
+  }
+
+  @media screen and (min-width: 1224px) {
+    h1 {
+      font-size: 4.3rem;
+    }
+    .logo img {
+      width: 7rem;
+      margin-top: 2.8rem;
+    }
+
+    .main_contenedor {
+      width: 70vw;
+      margin: 4rem 15vw;
+    }
+
+    #nosotros h2,
+    #productos_descripcion h2 {
+      font-size: 2.6rem;
+    }
+
+    #nosotros p,
+    #productos_descripcion p {
+      font-size: 1.6rem;
+    }
+
+    .lista_producto {
+      font-size: 2.1rem;
+    }
+
+    .lista_producto span {
+      font-size: 3.8rem;
+    }
+  }
+
+  @media screen and (min-width: 1870px) {
+    .main_contenedor {
+      width: 60vw;
+      margin: 4rem 20vw;
+    }
+  }
+}

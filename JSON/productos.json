@@ -1,0 +1,281 @@
+[
+    {
+      "id": "1",
+      "nombre": "Palo principiante",
+      "categoria": "palos",
+      "imagen": "IMG/palos/palo_princpiante.jpg",
+      "detalle": "Este refinado Palo de pequeño peso es ideal para quienes se están iniciando en este deporte. Su estructura de madera proporciona un equilibrio perfecto entre potencia y control, lo que facilita el aprendizaje. Además, su diseño ergonómico garantiza comodidad durante el juego, reduciendo la fatiga. Este palo es una elección inteligente para aquellos que buscan mejorar sus habilidades en el campo.",
+      "precio": "10000",
+      "puntuacion": "*****"
+    },
+    {
+      "id": "2",
+      "nombre": "Palo de nivel intermedio",
+      "categoria": "palos",
+      "imagen": "IMG/palos/palo_intermedio.jpg",
+      "detalle": "El Palo de nivel intermedio está diseñado para jugadores con experiencia moderada que desean un equilibrio óptimo entre control y potencia en cada golpe. Su construcción de alta calidad garantiza una durabilidad excepcional, mientras que su diseño ergonómico ofrece comodidad durante horas de juego. Este palo te ayudará a llevar tu juego al siguiente nivel.",
+      "precio": "15.000",
+      "puntuacion": "****"
+    },
+    {
+      "id": "3",
+      "nombre": "Palo profesional",
+      "categoria": "palos",
+      "imagen": "IMG/palos/palo_profesional.jpg",
+      "detalle": "El Palo profesional es la elección definitiva para jugadores de élite que buscan la máxima potencia y control en cada disparo. Su construcción de alto rendimiento utiliza materiales de vanguardia para ofrecer una respuesta excepcional y una precisión inigualable. Con este palo, puedes dominar cualquier competición y superar a tus oponentes con facilidad.",
+      "precio": "101.000",
+      "puntuacion": "*****"
+    },
+    {
+      "id": "4",
+      "nombre": "Palo de Carbono 1",
+      "categoria": "palos",
+      "imagen": "IMG/palos/palo_carbono1.jpg",
+      "detalle": "Fabricado con titanio resistente, el Palo de Carbono 1 es una opción ligera y duradera, perfecta para competiciones de alto nivel. Su diseño aerodinámico y su tecnología de vanguardia garantizan un rendimiento excepcional en cada golpe. Este palo te dará la ventaja que necesitas en el campo.",
+      "precio": "90.000",
+      "puntuacion": "****"
+    },
+    {
+      "id": "5",
+      "nombre": "Palo de Carbono 2",
+      "categoria": "palos",
+      "imagen": "IMG/palos/palo_carbono2.jpg",
+      "detalle": "Construido con fibra de carbono de alta calidad, el Palo de Carbono 2 ofrece una excelente rigidez y respuesta en el juego. Su diseño ergonómico y su peso ligero lo hacen ideal para jugadores que buscan un control excepcional y potencia en cada disparo. Este palo es una elección inteligente para aquellos que buscan una ventaja competitiva",
+      "precio": "115.000",
+      "puntuacion": "*****"
+    },
+    {
+      "id": "6",
+      "nombre": "Palo de Carbono 3",
+      "categoria": "palos",
+      "imagen": "IMG/palos/palo_carbono3.jpg",
+      "detalle": "Hecho a mano con madera de ébano, el Palo de Carbono 3 es una verdadera obra de arte que proporciona un toque suave y preciso en cada golpe. Su construcción de alta gama lo convierte en la elección perfecta para jugadores que buscan un rendimiento excepcional y una estética elegante. Con este palo, destacarás en el campo y dejarás una impresión duradera",
+      "precio": "220.000",
+      "puntuacion": "*****"
+    },
+    {
+      "id": "7",
+      "nombre": "Remera deportiva",
+      "categoria": "indumentariasuperior",
+      "imagen": "IMG/indumentaria_superior/remera_deportiva.jpg",
+      "detalle": "Remera deportiva: Esta cómoda remera de algodón es perfecta para deportes y actividades diarias. Su diseño transpirable te mantendrá fresco durante tus entrenamientos, y su ajuste cómodo te permitirá moverte con facilidad. Ya sea para correr, hacer yoga o simplemente relajarte, esta remera es una elección versátil y elegante.",
+      "precio": "5.500",
+      "puntuacion": "****"
+    },
+    {
+      "id": "8",
+      "nombre": "Campera deportiva",
+      "categoria": "indumentariasuperior",
+      "imagen": "IMG/indumentaria_superior/campera_deportiva.jpg",
+      "detalle": "Campera deportiva: La Campera deportiva resistente al viento y al agua es esencial para mantenerse cómodo en climas adversos. Su diseño duradero y su capucha ajustable te protegerán de las inclemencias del tiempo mientras te mantienes activo. Ya sea para hacer senderismo o simplemente pasear por la ciudad, esta campera es tu compañera perfecta.",
+      "precio": "25.000",
+      "puntuacion": "****"
+    },
+    {
+      "id": "9",
+      "nombre": "Camperon deportivo",
+      "categoria": "indumentariasuperior",
+      "imagen": "IMG/indumentaria_superior/camperon_deportivo.jpg",
+      "detalle": "Camperon deportivo: El Camperon deportivo es una prenda cómoda diseñada para entrenamientos intensos y protección contra el frío. Su aislamiento térmico te mantendrá abrigado en los días más fríos, mientras que su diseño ergonómico te permite moverte con libertad. No dejes que el clima te detenga, sigue entrenando con confianza.",
+      "precio": "40.000",
+      "puntuacion": "****"
+    },
+    {
+      "id": "10",
+      "nombre": "Remera de manga larga",
+      "categoria": "indumentariasuperior",
+      "imagen": "IMG/indumentaria_superior/remera_mangalarga.jpg",
+      "detalle": "Remera de manga larga: Una remera de manga larga versátil es esencial para deportes y actividades al aire libre. Su tejido transpirable te mantendrá cómodo y seco, mientras que su diseño de manga larga te proporciona una cobertura adicional. Ya sea para correr en otoño o hacer senderismo en primavera, esta remera es una elección inteligente.",
+      "precio": "14.800",
+      "puntuacion": "****"
+    },
+    {
+      "id": "11",
+      "nombre": "Remera térmica",
+      "categoria": "indumentariasuperior",
+      "imagen": "IMG/indumentaria_superior/remera_termica.jpg",
+      "detalle": "Remera térmica: La Remera térmica de compresión proporciona soporte muscular y mejora la circulación sanguínea. Su diseño de compresión ajustado ayuda a reducir la fatiga muscular y acelera la recuperación. Ya sea para entrenamientos intensos o competencias, esta remera te ayudará a alcanzar tu máximo rendimiento."
+      ,
+      "precio": "9.200",
+      "puntuacion": "****"
+    },
+    {
+      "id": "12",
+      "nombre": "Musculosa",
+      "categoria": "indumentariasuperior",
+      "imagen": "IMG/indumentaria_superior/musculosa.jpg",
+      "detalle": "Musculosa: La Musculosa es una camiseta sin mangas perfecta para entrenamientos intensos y días calurosos. Su diseño sin mangas te permite moverte con libertad, y su tejido transpirable te mantiene fresco y seco. Ya sea en el gimnasio o al aire libre, esta musculosa es una opción cómoda y elegante.",
+      "precio": "10.300",
+      "puntuacion": "****"
+    },
+    
+    
+      {
+        "id": "13",
+        "nombre": "Pantalón deportivo",
+        "categoria": "indumentariainferior",
+        "imagen": "IMG/indumentaria_inferior/pantalon_deportivo.jpg",
+        "detalle": "Pantalón deportivo: Este pantalón es perfecto para entrenamientos intensos y actividades deportivas. Su tejido transpirable y elástico te brindan comodidad y libertad de movimiento. Con bolsillos funcionales y un diseño moderno, este pantalón es ideal para mantenerte activo y con estilo.",
+        "precio": "15.500",
+        "puntuacion": "****"
+      },
+      {
+        "id": "14",
+        "nombre": "Short deportivo",
+        "categoria": "indumentariainferior",
+        "imagen": "IMG/indumentaria_inferior/short_deportivo.jpg",
+        "detalle": "Short deportivo: Este short está diseñado para corredores exigentes. Su tejido ligero y transpirable te mantiene fresco mientras te enfrentas a largas distancias. Los detalles reflectantes mejoran la visibilidad en condiciones de poca luz, lo que lo convierte en la elección perfecta para tus carreras nocturnas.",
+        "precio": "9.800",
+        "puntuacion": "****"
+      },
+      {
+        "id": "15",
+        "nombre": "Leggings",
+        "categoria": "indumentariainferior",
+        "imagen": "IMG/indumentaria_inferior/leggins.jpg",
+        "detalle": "Leggings: Estos leggings ofrecen un soporte muscular excepcional y una comodidad superior. Su diseño de compresión ayuda a mejorar la circulación sanguínea y reduce la fatiga muscular. Perfectos para entrenamientos intensos y actividades deportivas de alto rendimiento.",
+        "precio": "12.200",
+        "puntuacion": "*****"
+      },
+      {
+        "id": "16",
+        "nombre": "Pantalón corto",
+        "categoria": "indumentariainferior",
+        "imagen": "IMG/indumentaria_inferior/pantalon_corto.jpg",
+        "detalle": "Pantalón corto : Este pantalón corto es ideal para tus prácticas. Su tejido suave y elástico te proporciona la libertad de movimiento que necesitas para realizar poses difíciles. Diseñado para la comodidad y el estilo en cada práctica.",
+        "precio": "7.500",
+        "puntuacion": "****"
+      },
+      {
+        "id": "17",
+        "nombre": "Mallas de running",
+        "categoria": "indumentariainferior",
+        "imagen": "IMG/indumentaria_inferior/mallas_running.jpg",
+        "detalle": "Mallas de running: Estas mallas son esenciales para corredores apasionados. Su tejido elástico y transpirable se adapta a tus movimientos, proporcionando comodidad y rendimiento. Con un bolsillo con cremallera para tus objetos pequeños, son ideales para carreras largas.",
+        "precio": "11.000",
+        "puntuacion": "****"
+      },
+      {
+        "id": "18",
+        "nombre": "Pollera de hockey",
+        "categoria": "indumentariainferior",
+        "imagen": "IMG/indumentaria_inferior/pollera_hockey.jpg",
+        "detalle": "Pollera de hockey: Esta pollera versátil es perfecta para sesiones de gimnasio o entrenamientos al aire libre. Su tejido duradero y diseño funcional te brindan comodidad y estilo. Super comodas,frescas y livianas , para mejorar tu desempeño en las actividades deporitvas.",
+        "precio": "14.900",
+        "puntuacion": "****"
+      },
+    {
+      "id": "19",
+      "nombre": "Guantes de agarre para hockey",
+      "categoria": "accesorios",
+      "imagen": "IMG/accesorios/guantes_agarre_hockey.jpg",
+      "detalle": "Guantes de agarre para hockey: Estos guantes están diseñados para mejorar tu agarre en el stick de hockey. El material antideslizante y el ajuste cómodo te ayudarán a controlar mejor la pelota. Ideales para jugadores que buscan precisión en sus golpes.",
+      "precio": "2.500",
+      "puntuacion": "****"
+    },
+    {
+      "id": "20",
+      "nombre": "Protector bucal",
+      "categoria": "accesorios",
+      "imagen": "IMG/accesorios/protector_bucal_hockey.jpg",
+      "detalle": "Protector bucal: Este protector bucal es esencial para proteger tus dientes durante el juego de hockey. Ofrece una protección efectiva y un ajuste cómodo. No comprometas tu seguridad en el campo.",
+      "precio": "900",
+      "puntuacion": "****"
+    },
+    {
+      "id": "21",
+      "nombre": "Medias para hockey",
+      "categoria": "accesorios",
+      "imagen": "IMG/accesorios/calcetines_compresion_hockey.jpg",
+      "detalle": "Medias para hockey: Estos calcetines mejoran la circulación sanguínea en las piernas, reduciendo la fatiga muscular. Ideales para juegos largos y entrenamientos intensos. Su ajuste ceñido y transpirable los hace cómodos de llevar.",
+      "precio": "1.900",
+      "puntuacion": "****"
+    },
+    {
+      "id": "22",
+      "nombre": "Bolsa de equipo de hockey",
+      "categoria": "accesorios",
+      "imagen": "IMG/accesorios/bolsa_equipo_hockey.jpg",
+      "detalle": "Bolsa de equipo de hockey: Esta bolsa espaciosa te permite transportar todo tu equipo de hockey de manera conveniente. Con compartimentos separados para el stick, ropa y accesorios, mantendrás todo organizado. Su construcción resistente garantiza durabilidad.",
+      "precio": "65.000",
+      "puntuacion": "****"
+    },
+    {
+      "id": "23",
+      "nombre": "Canilleras de hockey",
+      "categoria": "accesorios",
+      "imagen": "IMG/accesorios/canilleras_hockey.jpg",
+      "detalle": "Canilleras de hockey: Estas canilleras son esenciales para proteger tus piernas de posibles impactos durante el juego. Ofrecen una cobertura completa y un ajuste seguro. No pongas en riesgo tu seguridad en el campo.",
+      "precio": "18.800",
+      "puntuacion": "****"
+    },
+    {
+      "id": "24",
+      "nombre": "Bocha de hockey",
+      "categoria": "accesorios",
+      "imagen": "IMG/accesorios/bocha_hockey.jpg",
+      "detalle": "Bocha de hockey: Esta bocha es ideal para tus entrenamientos y partidos de hockey. Su diseño de alta calidad garantiza un rendimiento excepcional en el campo. No dejes de practicar tus habilidades con esta bocha de primera.",
+      "precio": "5.000",
+      "puntuacion": "****"
+    },
+    {
+      "id": "25",
+      "nombre": "Zapatillas de hockey para césped natural",
+      "categoria": "calzado",
+      "imagen": "IMG/calzado/zapatillas_hockey_cesped_natural.jpg",
+      "detalle": "Zapatillas de hockey para césped natural: Estas zapatillas ofrecen un agarre excepcional en césped natural. Su suela especial proporciona tracción y estabilidad en el campo. Diseñadas para brindar comodidad y rendimiento en cada partido.",
+      "precio": "14.200",
+      "puntuacion": "****"
+    },
+    {
+      "id": "26",
+      "nombre": "Zapatillas de hockey con diseño moderno",
+      "categoria": "calzado",
+      "imagen": "IMG/calzado/zapatillas_hockey_diseno_moderno.jpg",
+      "detalle": "Zapatillas de hockey con diseño moderno: Estas zapatillas combinan estilo y funcionalidad. Ofrecen un excelente agarre en el césped y un diseño atractivo. Ideales para jugadores que desean destacar en el campo.",
+      "precio": "16.800",
+      "puntuacion": "*****"
+    },
+    {
+      "id": "27",
+      "nombre": "Zapatillas de hockey transpirables",
+      "categoria": "calzado",
+      "imagen": "IMG/calzado/zapatillas_hockey_transpirables.jpg",
+      "detalle": "Zapatillas de hockey transpirables: Estas zapatillas mantienen tus pies frescos durante los juegos intensos. Su tejido transpirable y su diseño ligero garantizan comodidad y rendimiento. No dejes que el calor te frene en el campo.",
+      "precio": "20.500",
+      "puntuacion": "****"
+    },
+    {
+      "id": "28",
+      "nombre": "Zapatillas de hockey con amortiguación",
+      "categoria": "calzado",
+      "imagen": "IMG/calzado/zapatillas_hockey_amortiguacion.jpg",
+      "detalle": "Zapatillas de hockey con tecnología de amortiguación: Estas zapatillas ofrecen una amortiguación excepcional para reducir la fatiga y el impacto en las articulaciones. Diseñadas para jugadores que buscan comodidad y protección.",
+      "precio": "25.900",
+      "puntuacion": "****"
+    },
+    {
+      "id": "29",
+      "nombre": "Zapatillas de hockey de alta velocidad",
+      "categoria": "calzado",
+      "imagen": "IMG/calzado/zapatillas_hockey_alta_velocidad.jpg",
+      "detalle": "Zapatillas de hockey de alta velocidad: Estas zapatillas están diseñadas para jugadores que buscan velocidad y agilidad. Su perfil bajo y su suela de tracción mejorada te permiten moverte rápidamente en el campo.",
+      "precio": "30.600",
+      "puntuacion": "*****"
+    },
+    {
+      "id": "30",
+      "nombre": "Zapatillas de hockey de gama premium",
+      "categoria": "calzado",
+      "imagen": "IMG/calzado/zapatillas_hockey_gama_premium.jpg",
+      "detalle": "Zapatillas de hockey de gama premium: Estas zapatillas ofrecen la máxima calidad y rendimiento. Su diseño de alta gama proporciona un equilibrio excepcional entre potencia y control. Destaca en cada partido con estas zapatillas de élite.",
+      "precio": "40.500",
+      "puntuacion": "*****"
+    }
+
+      
+    
+    
+
+  ]
+  
