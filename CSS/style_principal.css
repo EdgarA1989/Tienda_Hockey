@@ -203,7 +203,7 @@ h1 span {
 /*TABLET*/
 @media screen and (min-width: 720px) {
   h1 {
-    font-size: 3.7rem;
+    font-size: 3.4rem;
   }
 
   .logo img {
@@ -213,7 +213,7 @@ h1 span {
 
   #nosotros p,
   #productos_descripcion p {
-    font-size: 1.37rem;
+    font-size: 1.3rem;
   }
 
   .cards_contenedor {
@@ -237,13 +237,13 @@ h1 span {
 
   #nosotros p,
   #productos_descripcion p {
-    font-size: 1.42rem;
+    font-size: 1.35rem;
   }
 }
 
 @media screen and (min-width: 1248px) {
   h1 {
-    font-size: 3.8rem;
+    font-size: 3.6rem;
   }
   .logo img {
     width: 5rem;
@@ -260,11 +260,11 @@ h1 span {
     font-size: 2.6rem;
   }
 
-  #nosotros p,
+  /*   #nosotros p,
   #productos_descripcion p {
     font-size: 1.5rem;
   }
-
+ */
   .lista_producto {
     font-size: 1.65rem;
   }

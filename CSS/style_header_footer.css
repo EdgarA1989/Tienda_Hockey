@@ -156,7 +156,7 @@
 @media screen and (min-width: 1024px) {
   .menu_desplegado {
     border: 0;
-    height: 3.2rem;
+    height: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -209,6 +209,6 @@
 
 @media screen and (min-width: 1248px) {
   .menu_desplegado li {
-    font-size: 1.58rem;
+    padding: 0 6rem;
   }
 }

@@ -87,9 +87,12 @@ h1 span {
 .detalle_producto {
   margin: 0 6vw;
   font-family: Rubik;
-  font-size: 1.4rem;
   display: flex;
   justify-content: center;
+}
+
+.detalle_producto p {
+  font-size: 1.18rem;
 }
 
 .estrellas {
@@ -158,8 +161,8 @@ h1 span {
     font-size: 3.8rem;
   }
 
-  .detalle_producto {
-    font-size: 1.4rem;
+  .detalle_producto p {
+    font-size: 1.35rem;
   }
 
   .boton_volver {
@@ -171,40 +174,12 @@ h1 span {
 
 /*Media Queries DESKTOP*/
 @media screen and (min-width: 1024px) {
-  h1 {
-    font-size: 4rem;
-  }
-  .logo img {
-    width: 5.6rem;
-    margin-top: 2.8rem;
-  }
-
   .texto_contenedor * {
     margin: 1.6rem 0;
   }
 
   .imagen_contenedor img {
-    width: 22rem;
-  }
-
-  .texto_precio {
-    font-size: 1.5rem;
-  }
-
-  .texto_contenedor h2 {
-    font-size: 1.75rem;
-  }
-
-  .texto_envio {
-    font-size: 1.2rem;
-  }
-
-  .estrellas {
-    font-size: 4.3rem;
-  }
-
-  .detalle_producto {
-    font-size: 1.4rem;
+    width: 19rem;
   }
 
   .boton_volver {
