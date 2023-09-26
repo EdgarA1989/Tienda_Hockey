@@ -174,8 +174,8 @@
   }
 
   .menu_desplegado a:hover {
-    border-bottom: 1px solid #fff;
-    transition: 0.4s;
+    color: #fc6739;
+    transition: 0.3s;
   }
 
   .footer_redes a,
