@@ -156,7 +156,7 @@
 @media screen and (min-width: 1024px) {
   .menu_desplegado {
     border: 0;
-    height: 4rem;
+    height: 3.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -165,7 +165,7 @@
 
   .menu_desplegado li {
     display: inline;
-    font-size: 1.55rem;
+    font-size: 1.4rem;
     padding: 0 4.3rem;
     &:hover {
       background-color: transparent;
@@ -180,12 +180,12 @@
 
   .footer_redes a,
   .footer_contactenos li {
-    font-size: 1.7rem;
+    font-size: 1.48rem;
   }
 
   .bi {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1.4rem;
+    height: 1.4rem;
   }
 
   .footer_contactenos,
@@ -204,5 +204,11 @@
 
   .footer_contactenos {
     width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .menu_desplegado li {
+    font-size: 1.58rem;
   }
 }

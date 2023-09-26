@@ -128,17 +128,18 @@ h1 span {
 .lista_producto {
   display: flex;
   justify-content: space-between;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-family: PT Serif;
   width: 100%;
   margin-top: 3rem;
   padding-bottom: 0.7rem;
   border-bottom: 1px solid #ccc;
+  align-items: center;
 }
 
 .lista_producto span {
   margin-right: 1rem;
-  font-size: 3.4rem;
+  font-size: 2.6rem;
   cursor: pointer;
   &:hover {
     color: #f9430a;
@@ -210,6 +211,11 @@ h1 span {
     width: 5.6rem;
   }
 
+  #nosotros p,
+  #productos_descripcion p {
+    font-size: 1.37rem;
+  }
+
   .cards_contenedor {
     display: flex;
     flex-wrap: wrap;
@@ -227,9 +233,14 @@ h1 span {
       width: 80vw;
       margin: 0 10vw;
     }
+
+    #nosotros p,
+    #productos_descripcion p {
+      font-size: 1.42rem;
+    }
   }
 
-  @media screen and (min-width: 1224px) {
+  @media screen and (min-width: 1248px) {
     h1 {
       font-size: 4.3rem;
     }
@@ -250,15 +261,15 @@ h1 span {
 
     #nosotros p,
     #productos_descripcion p {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
     }
 
     .lista_producto {
-      font-size: 2.1rem;
+      font-size: 1.65rem;
     }
 
     .lista_producto span {
-      font-size: 3.8rem;
+      font-size: 3.2rem;
     }
   }
 
