@@ -84,6 +84,17 @@ h1 span {
   font-weight: 600;
 }
 
+.puntuacion {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+}
+
+.star {
+  color: rgb(3, 0, 172);
+  display: inline-block;
+}
+
 .detalle_producto {
   margin: 0 6vw;
   font-family: Rubik;
@@ -93,11 +104,6 @@ h1 span {
 
 .detalle_producto p {
   font-size: 1.18rem;
-}
-
-.estrellas {
-  font-size: 3rem;
-  color: rgb(119, 119, 105);
 }
 
 /*BOTON VOLVER*/
@@ -135,8 +141,8 @@ h1 span {
   background-color: #002d62;
   color: #fff;
   width: 7rem;
-  height: 2.8rem;
-  font-size: 1.4rem;
+  height: 2.5rem;
+  font-size: 1.3em;
   text-align: center;
   margin: 3rem 1rem;
   &:hover {
