@@ -82,15 +82,16 @@ h1 span {
   font-size: 1rem;
   color: #13c00d;
   font-weight: 600;
+  margin-bottom: 0;
 }
 
 .puntuacion {
   margin: 0;
-  padding: 0;
   font-size: 1.8rem;
 }
 
 .star {
+  margin-top: 0;
   color: rgb(3, 0, 172);
   display: inline-block;
 }
