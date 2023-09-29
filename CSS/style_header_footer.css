@@ -27,7 +27,6 @@
 
 .menu {
   display: none;
-  transition: display 1s ease-in-out;
 }
 
 .menu_desplegado {
@@ -166,7 +165,7 @@
   .menu_desplegado li {
     display: inline;
     font-size: 1.4rem;
-    padding: 0 4.3rem;
+    padding: 0 3rem;
     &:hover {
       background-color: transparent;
       transition: 0;
@@ -209,6 +208,6 @@
 
 @media screen and (min-width: 1248px) {
   .menu_desplegado li {
-    padding: 0 6rem;
+    padding: 0 5rem;
   }
 }

@@ -20,6 +20,8 @@
 .logo {
   display: flex;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 h1 {
@@ -34,11 +36,6 @@ h1 span {
   color: #f9430a;
 }
 
-.logo {
-  position: relative;
-  overflow: hidden;
-}
-
 .logo img {
   margin-top: 1.5rem;
   width: 5.1rem;
@@ -50,7 +47,6 @@ h1 span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fdfdfd;
   margin: 8rem 6vw;
   width: 88vw;
   margin-bottom: 2rem;
@@ -171,7 +167,7 @@ h1 span {
   }
 
   .texto_contenedor * {
-    margin: 1.3rem 0;
+    margin: 1.2rem 0;
   }
 
   .imagen_contenedor img {
@@ -190,10 +186,6 @@ h1 span {
     font-size: 1rem;
   }
 
-  .estrellas {
-    font-size: 3.8rem;
-  }
-
   .detalle_producto p {
     font-size: 1.35rem;
   }
@@ -209,7 +201,7 @@ h1 span {
 /*Media Queries DESKTOP*/
 @media screen and (min-width: 1024px) {
   .texto_contenedor * {
-    margin: 1.6rem 0;
+    margin: 1.4rem 0;
   }
 
   .imagen_contenedor img {

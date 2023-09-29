@@ -28,6 +28,8 @@ hr {
 .logo {
   display: flex;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 h1 {
@@ -40,11 +42,6 @@ h1 {
 h1 span {
   font-family: Roboto Condensed;
   color: #f9430a;
-}
-
-.logo {
-  position: relative;
-  overflow: hidden;
 }
 
 .logo img {
@@ -66,7 +63,7 @@ h1 span {
 
 .seleccion {
   position: absolute;
-  top: 40%;
+  top: 49%;
   display: grid;
   grid-template-columns: 3rem 1fr 3rem;
   margin: 0 2%;
