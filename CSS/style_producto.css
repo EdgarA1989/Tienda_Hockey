@@ -200,8 +200,8 @@ h1 span {
 
   .boton_volver,
   .boton_comprar {
-    font-size: 1.5rem;
-    width: 6rem;
+    font-size: 1.45rem;
+    width: 7rem;
     height: 2.4rem;
   }
 }
@@ -214,13 +214,6 @@ h1 span {
 
   .imagen_contenedor img {
     width: 19rem;
-  }
-
-  .boton_volver,
-  .boton_comprar {
-    font-size: 1.6rem;
-    width: 6.2rem;
-    height: 2.8rem;
   }
 }
 
