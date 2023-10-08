@@ -46,4 +46,31 @@ document.addEventListener("DOMContentLoaded", () => {
   } else {
     console.log("El producto con ese ID no fue encontrador");
   }
+
+  //BOTON COMPRAR
+
+  const botonComprar = document.querySelector(".boton_comprar");
+
+  botonComprar.addEventListener("click", () => {
+    //ESTILOS DE LIBRERIA SWEET ALERT
+    Swal.fire({
+      title: "¿Estas seguro que quieres comprar el producto?",
+      icon: "info",
+      showCloseButton: true,
+      showCancelButton: true,
+      focusConfirm: true,
+      confirmButtonText: "Si, comprar producto",
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      cancelButtonText: "Cancelar",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(
+          "Felicidades!",
+          "Tu producto se agrego al carrito",
+          "success"
+        );
+      }
+    });
+  });
 });
