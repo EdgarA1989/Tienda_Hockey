@@ -1,10 +1,22 @@
 .navbar {
   display: flex;
-  flex-direction: column;
   height: 3rem;
   background-color: #563d7c;
-  justify-content: center;
-  align-items: end;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.carrito {
+  align-self: center;
+}
+
+.carrito img {
+  width: 2.25rem;
+}
+
+.carrito_desplegable {
+  display: none;
 }
 
 .menu_iconos {
@@ -146,6 +158,16 @@
     height: 1.2rem;
   }
 
+  .carrito_desplegable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .carrito_desplegable img {
+    width: 1.9rem;
+  }
+
   .footer_contactenos,
   .footer_redes {
     height: 10rem;
@@ -165,11 +187,20 @@
   .menu_desplegado li {
     display: inline;
     font-size: 1.4rem;
-    padding: 0 3rem;
+    padding: 0 2rem;
     &:hover {
       background-color: transparent;
       transition: 0;
     }
+  }
+
+  .carrito_desplegable {
+    display: inline;
+  }
+
+  .carrito_desplegable img {
+    position: relative;
+    top: 0.25rem;
   }
 
   .menu_desplegado a:hover {
@@ -208,6 +239,18 @@
 
 @media screen and (min-width: 1248px) {
   .menu_desplegado li {
-    padding: 0 5rem;
+    padding: 0 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .menu_desplegado li {
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .menu_desplegado li {
+    padding: 0 5.4rem;
   }
 }
